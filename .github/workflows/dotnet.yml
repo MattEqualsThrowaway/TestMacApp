@@ -113,4 +113,5 @@ jobs:
       uses: actions/upload-artifact@v4
       if: ${{ github.event_name != 'pull_request' }}
       with:
-        name: TestApp.app
+        path: "TestApp/TestApp.app"
+        name: TestApp
