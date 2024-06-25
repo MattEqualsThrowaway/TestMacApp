@@ -1,5 +1,5 @@
 #!/bin/bash
-
+dotnet restore
 dotnet publish -r osx-arm64 --configuration Release -p:UseAppHost=true
 
 # Define variables
