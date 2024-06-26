@@ -29,7 +29,7 @@ echo "Packaged $APP_NAME successfully."
 
 mkdir -p "Setup/output"
 
-cp "$APP_NAME" "Setup/output"
+cp "$APP_NAME" "Setup/output/$APP_NAME"
 
 chmod +x Setup/output/start.sh
 
