@@ -29,9 +29,5 @@ echo "Packaged $APP_NAME successfully."
 
 mkdir -p "Setup/output"
 
-mv "$APP_NAME" "Setup/output/$APP_NAME"
-
-chmod +x Setup/output/start.sh
-
 # Zip the .app bundle
-#zip -r "Setup/output/$ZIP_FILE" "$APP_NAME"
+zip -r "Setup/output/$ZIP_FILE" "$APP_NAME"
